@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+$bgColor: rgba(255, 0, 0, 0.507);
+$displayFlex: flex;
+$textClrWhite: white;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//variable for background color
+$bgColor: rgba(255, 0, 0, 0.507);
+$textClrWhite: white;
+$displayFlex: flex;
+.main-container {
+    //header css ends
+    //main menu css ends
+    .tags {
+        overflow: scroll;
+        margin: 13px 0px;
+        ul {
+            display: $displayFlex;
+            li {
+                border: solid #e6caca 0.1px;
+                padding: 0px 8px 3px 8px;
+                margin: 6px;
+                border-radius: 1px;
+                li:hover {
+                    background-color: rgba(223, 213, 213, 0.623);
+                    color: white;
+                    a {
+                        color: black;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
