@@ -45,3 +45,61 @@ li {
 a {
     text-decoration: none;
 }
+
+//free stock photos and trending
+//images css
+.main-container .img-section {
+    width: 93%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.main-container .img-section .images-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container .img-section .heading-trending-wrap {
+    display: flex;
+}
+
+.main-container .img-section .heading-trending-wrap .heading-wrapper {
+    width: 80%;
+}
+
+.main-container .img-section .heading-trending-wrap select {
+    border: none;
+}
+
+.main-container .img-section .heading-trending-wrap select:hover {
+    color: rgb(146, 144, 144);
+}
+
+.main-container .img-section .images {
+    width: 224px;
+    border: solid white 0px;
+    border-radius: 3px;
+    margin: 12px 12px 12px 1px;
+}
+
+.main-container .img-section .tags-wrapper {
+    overflow: scroll;
+    margin: 13px 0px;
+}
+
+.main-container .img-section .tags-wrapper ul li {
+    border: solid #e6caca 0.1px;
+    padding: 0px 8px 3px 8px;
+    margin: 6px;
+    border-radius: 1px;
+}
+
+.main-container .img-section .tags-wrapper ul li:hover {
+    background-color: rgba(223, 213, 213, 0.623);
+    color: white;
+}
+
+.main-container .img-section .tags-wrapper ul li a {
+    color: black;
+    font-size: 13px;
+}
