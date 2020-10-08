@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { TagsWrapperComponent } from './tags-wrapper/tags-wrapper.component';
+import { NgServeComponent } from './ng-serve/ng-serve.component';
+import { ImagesComponent } from './images/images.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { TagsWrapperComponent } from './tags-wrapper/tags-wrapper.component';
     HeaderComponent,
     FooterComponent,
     MainMenuComponent,
-    TagsWrapperComponent
+    TagsWrapperComponent,
+    NgServeComponent,
+    ImagesComponent
   ],
   imports: [
     BrowserModule,

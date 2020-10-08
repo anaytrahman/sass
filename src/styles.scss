@@ -3,6 +3,10 @@
 $bgColor: rgba(255, 0, 0, 0.507);
 $displayFlex: flex;
 $textClrWhite: white;
+.error {
+    justify-content: center;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +40,29 @@ $displayFlex: flex;
             }
         }
     }
+    .img-section {
+        width: 93%;
+        margin: 0 auto;
+        padding: 15px;
+        .tags-wrapper {
+            overflow: scroll;
+            margin: 13px 0px;
+            ul li {
+                border: solid #e6caca 0.1px;
+                padding: 0px 8px 3px 8px;
+                margin: 6px;
+                border-radius: 1px;
+                &:hover {
+                    background-color: rgba(223, 213, 213, 0.623);
+                    color: white;
+                }
+                a {
+                    color: black;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
 }
 
 li {
@@ -45,3 +72,5 @@ li {
 a {
     text-decoration: none;
 }
+
+//free stock photos and trending
