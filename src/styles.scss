@@ -1,21 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 
+//variable for background color
 $bgColor: rgba(255, 0, 0, 0.507);
+$textClrWhite: white;
 $displayFlex: flex;
 $textClrWhite: white;
+$displayFlex: flex;
 .error {
     justify-content: center;
 }
 
+//imported css 
+@import "./assets/css/images.scss";
+@import "./assets/css/header.scss";
+@import "./assets/css/footer.scss";
+@import "./assets/css/main-menu.scss";
 * {
     margin: 0;
     padding: 0;
 }
 
-//variable for background color
-$bgColor: rgba(255, 0, 0, 0.507);
-$textClrWhite: white;
-$displayFlex: flex;
 .main-container {
     //header css ends
     //main menu css ends
@@ -63,6 +67,8 @@ $displayFlex: flex;
             }
         }
     }
+    //main-menu css
+    $displayFlex: flex;
 }
 
 li {
@@ -73,4 +79,13 @@ a {
     text-decoration: none;
 }
 
-//free stock photos and trending
+.heading-trending-wrap {
+    display: flex;
+    justify-content: space-between;
+    select {
+        border: none;
+        &:hover {
+            color: rgb(146, 144, 144);
+        }
+    }
+}

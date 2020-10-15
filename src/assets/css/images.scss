@@ -1,0 +1,15 @@
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .images {
+        width: 224px;
+        border: solid white 0px;
+        border-radius: 3px;
+        margin: 12px 12px 12px 1px;
+    }
+    .img-wrapper:hover {
+        opacity: 70%;
+        cursor: pointer;
+    }
+}
